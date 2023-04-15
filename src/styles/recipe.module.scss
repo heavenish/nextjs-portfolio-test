@@ -1,0 +1,33 @@
+.recipePage {
+  padding: 2rem;
+  text-align: center;
+  background-color: #ffffff;
+  color: #333;
+
+  h1 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  p {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  h2 {
+    font-size: 1.6rem;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  ul {
+    font-size: 1.2rem;
+    list-style-type: disc;
+    margin-left: 1.5rem;
+    padding: 0;
+    display: inline-block;
+    text-align: left;
+  }
+}
