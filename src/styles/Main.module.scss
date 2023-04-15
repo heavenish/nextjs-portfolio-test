@@ -478,20 +478,77 @@
   }
 }
 
-@media (max-width: 421px) {
+// @media (max-width: 421px) {
+//   .welcomeSection {
+//     .welcomeHeadline {
+//       font-size: 3rem;
+//       margin-bottom: -19rem;
+//     }
+
+//     .introText {
+//       max-width: 300px;
+//       transform: translateY(-12.75%);
+//     }
+
+//     .image {
+//       max-width: 150px;
+//     }
+
+//     .image1 {
+//       max-width: 225px;
+//       transform: translateX(15%) translateY(-90%) rotate(-7deg);
+//       margin-block-start: 4rem;
+//       margin-inline-end: 5rem;
+//       z-index: 1;
+//     }
+
+//     .image2 {
+//       max-width: 225px;
+//       transform: translateX(-70%) translateY(-50%) rotate(7deg);
+//     }
+
+//     .image3 {
+//       max-width: 175px;
+//       transform: translateY(-110%) translateX(-50%) rotate(-7deg);
+//       z-index: 2;
+//     }
+
+//     .image4 {
+//       max-width: 200px;
+//       margin-left: 0;
+//       margin-right: 0;
+//       transform: translateY(-20%) translateX(15%) rotate(7deg);
+//       z-index: 3;
+//     }
+
+//     .image5 {
+//       max-width: 150px;
+//       transform: translateY(-60%) translateX(20%) rotate(7deg);
+//       z-index: 2;
+//     }
+
+//     .image6 {
+//       max-width: 250px;
+//       z-index: 1;
+//     }
+
+//     .image7 {
+//       max-width: 150px;
+//       transform: translateY(-70%) translateX(-35%) rotate(-5deg);
+//     }
+//   }
+// }
+
+@media (max-width: 426px) {
   .welcomeSection {
     .welcomeHeadline {
       font-size: 3rem;
-      margin-bottom: -19rem;
+      margin-bottom: -18rem;
     }
 
     .introText {
       max-width: 300px;
       transform: translateY(-12.75%);
-    }
-
-    .image {
-      max-width: 150px;
     }
 
     .image1 {
@@ -517,7 +574,7 @@
       max-width: 200px;
       margin-left: 0;
       margin-right: 0;
-      transform: translateY(-20%) translateX(15%) rotate(7deg);
+      transform: translateY(-20%) translateX(0%) rotate(7deg);
       z-index: 3;
     }
 
@@ -534,66 +591,7 @@
 
     .image7 {
       max-width: 150px;
-      transform: translateY(-70%) translateX(-35%) rotate(-5deg);
-    }
-  }
-}
-
-@media (max-width: 376px) {
-  .welcomeSection {
-    .welcomeHeadline {
-      font-size: 3rem;
-      margin-bottom: -18rem;
-      transform: translateX(-20%) translateY(-60%);
-    }
-
-    .introText {
-      max-width: 250px;
-      transform: translateX(-18%) translateY(-27.5%);
-    }
-
-    .image {
-      max-width: 150px;
-    }
-
-    .image1 {
-      max-width: 200px;
-      transform: translateX(15%) translateY(-170%) rotate(-7deg);
-      z-index: 1;
-    }
-
-    .image2 {
-      max-width: 225px;
-      transform: translateX(-90%) translateY(-120%) rotate(7deg);
-    }
-
-    .image3 {
-      max-width: 175px;
-      transform: translateY(-150%) translateX(-60%) rotate(-7deg);
-      z-index: 2;
-    }
-
-    .image4 {
-      max-width: 200px;
-      transform: translateY(-30%) translateX(-15%) rotate(7deg);
-      z-index: 3;
-    }
-
-    .image5 {
-      max-width: 150px;
-      transform: translateY(-100%) translateX(20%) rotate(7deg);
-      z-index: 2;
-    }
-
-    .image6 {
-      max-width: 250px;
-      transform: translateX(-24.5%) translateY(-15%);
-      z-index: 1;
-    }
-
-    .image7 {
-      max-width: 150px;
-      transform: translateY(-160%) translateX(-105%) rotate(-5deg);
+      transform: translateY(-70%) translateX(-40%) rotate(-5deg);
     }
   }
 }
