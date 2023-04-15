@@ -60,6 +60,7 @@
   height: 2rem; /* adjust to desired height */
   line-height: 2rem; /* added */
   text-align: center; /* added */
+  transform: translateY(-50%);
 
   &:hover {
     background-color: rgba(0, 0, 0, 0.7);
@@ -87,13 +88,5 @@
     h2 {
       font-size: 1rem;
     }
-  }
-}
-
-/* Media query targeting iOS devices */
-@media only screen and (-webkit-min-device-pixel-ratio: 2) {
-  .prevBtn,
-  .nextBtn {
-    line-height: 1.8rem; /* adjust to center the arrow vertically on iOS devices */
   }
 }
