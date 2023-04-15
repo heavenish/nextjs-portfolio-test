@@ -438,7 +438,6 @@
     }
 
     .image1 {
-      grid-column: 1 / 4;
       max-width: 225px;
       transform: translateX(15%) translateY(-90%) rotate(-7deg);
     }
@@ -499,6 +498,8 @@
     .image1 {
       max-width: 175px;
       transform: translateX(35%) translateY(-100%) rotate(-7deg);
+      margin-block-start: 4rem;
+      margin-inline-end: 5rem;
       z-index: 1;
     }
 
