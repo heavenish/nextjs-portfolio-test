@@ -42,16 +42,16 @@ export default function Home() {
           alt="Hiking"
           className={`${styles.image} ${styles.image5}`}
         /> */}
-        <img
+        {/* <img
           src="https://res.cloudinary.com/dwr2brbx5/image/upload/v1681485322/selfie_ypl3tj.jpg"
           alt="Selfie"
           className={`${styles.image} ${styles.image6}`}
-        />
-        {/* <img
+        /> */}
+        <img
           src="https://res.cloudinary.com/dwr2brbx5/image/upload/v1681485322/volunteer_wg0ghd.jpg"
           alt="Volunteer"
           className={`${styles.image} ${styles.image7}`}
-        /> */}
+        />
         <h1 className={styles.welcomeHeadline}>Welcome</h1>
         <p className={styles.introText}>
           &ldquo;Hi there! I&rsquo;m{' '}
