@@ -497,7 +497,7 @@
 
     .image1 {
       max-width: 225px;
-      transform: translateX(15%) translateY(-100%) rotate(-7deg);
+      transform: translateX(15%) translateY(-90%) rotate(-7deg);
       margin-block-start: 4rem;
       margin-inline-end: 5rem;
       z-index: 1;
@@ -517,7 +517,7 @@
     .image4 {
       max-width: 200px;
       margin-left: 0;
-      margin-right: 3rem;
+      margin-right: 0;
       transform: translateY(-20%) translateX(15%) rotate(7deg);
       z-index: 3;
     }
