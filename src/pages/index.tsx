@@ -17,17 +17,17 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div className={styles.welcomeSection}>
-        <img
+        {/* <img
           src="https://res.cloudinary.com/dwr2brbx5/image/upload/v1681485322/convo_qamw2w.jpg"
           alt="main"
           className={`${styles.image} ${styles.image1}`}
-        />
-        {/* <img
+        /> */}
+        <img
           src="https://res.cloudinary.com/dwr2brbx5/image/upload/v1681485322/pets_bobsjf.jpg"
           alt="Pets"
           className={`${styles.image} ${styles.image2}`}
         />
-        <img
+        {/* <img
           src="https://res.cloudinary.com/dwr2brbx5/image/upload/v1681485321/dining_rtyghb.jpg"
           alt="Dining"
           className={`${styles.image} ${styles.image3}`}
