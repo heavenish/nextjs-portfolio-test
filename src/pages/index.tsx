@@ -27,7 +27,7 @@ export default function Home() {
           alt="Pets"
           className={`${styles.image} ${styles.image2}`}
         />
-        {/* <img
+        <img
           src="https://res.cloudinary.com/dwr2brbx5/image/upload/v1681485321/dining_rtyghb.jpg"
           alt="Dining"
           className={`${styles.image} ${styles.image3}`}
@@ -51,7 +51,7 @@ export default function Home() {
           src="https://res.cloudinary.com/dwr2brbx5/image/upload/v1681485322/volunteer_wg0ghd.jpg"
           alt="Volunteer"
           className={`${styles.image} ${styles.image7}`}
-        /> */}
+        />
         <h1 className={styles.welcomeHeadline}>Welcome</h1>
         <p className={styles.introText}>
           &ldquo;Hi there! I&rsquo;m{' '}
