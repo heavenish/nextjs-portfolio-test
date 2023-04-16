@@ -4,8 +4,30 @@ import Slider from '../components/Slider/Slider';
 import styles from '../styles//Main.module.scss';
 import Image from 'next/image';
 import Link from 'next/link';
+import WhiteboardWidget from '@/widgets/Whiteboard/WhiteboardWidget';
+import StockWidget from '@/widgets/Stock/StockWidget';
+import { FiArrowUpCircle } from 'react-icons/fi';
+import { useEffect, useState } from 'react';
 
 export default function Home() {
+  const [showButton, setShowButton] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      const scrollTop =
+        window.pageYOffset || document.documentElement.scrollTop;
+      if (scrollTop > 0) {
+        setShowButton(true);
+      } else {
+        setShowButton(false);
+      }
+    };
+    window.addEventListener('scroll', handleScroll);
+    return () => {
+      window.removeEventListener('scroll', handleScroll);
+    };
+  }, []);
+
   return (
     <Layout>
       <Head>
@@ -91,15 +113,36 @@ export default function Home() {
         if you&rsquo;d like to connect.
       </p>
       <p className={styles.scrollText}>
-        In the meantime, check out my{' '}
+        In the meantime, please check out my{' '}
         <Link href="/projects" target="_self">
-          <span className={styles.link}>Projects</span>
+          <span className={styles.link}>Projects </span>
+        </Link>{' '}
+        or stop by the{' '}
+        <Link href="/whiteboard" target="_self">
+          <span className={styles.link}>Whiteboard</span>
         </Link>
-        !
       </p>
       <div className={styles.sliderSection} id="slider">
         <Slider />
       </div>
+      <div className={styles.stockSection} id="stock">
+        <h2 className={styles.stockHeadline}>Stock and Crypto</h2>
+        <StockWidget />
+      </div>
+      <div className={styles.contactSection}>
+        <Link href="/contact">
+          <span className={styles.contactButton}>Contact Me</span>
+        </Link>
+      </div>
+      {showButton && (
+        <div className={styles.goToTopButton}>
+          <a href="#top">
+            <div>
+              <FiArrowUpCircle size={40} />
+            </div>
+          </a>
+        </div>
+      )}
     </Layout>
   );
 }

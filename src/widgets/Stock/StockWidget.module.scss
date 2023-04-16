@@ -1,0 +1,90 @@
+// src/widgets/Stock/StockWidget.module.scss
+.stockWidget {
+  background-color: #f5f5f5;
+  border-radius: 8px;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.headline {
+  font-size: 1.8rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+.toggleContainer {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 1.5rem;
+}
+
+.stocks {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.stock {
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
+  transition: box-shadow 0.3s, transform 0.3s;
+}
+
+.stock:hover {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.12), 0 4px 6px rgba(0, 0, 0, 0.24);
+  transform: translateY(-2px);
+}
+
+.stockName {
+  font-size: 1.4rem;
+  font-weight: 600;
+}
+
+.stockPrice {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.stockChange {
+  font-size: 1.1rem;
+  font-weight: 500;
+}
+
+.green {
+  color: #4caf50;
+}
+
+.red {
+  color: #f44336;
+}
+
+.newsLink {
+  font-size: 0.9rem;
+  color: #2196f3;
+  text-decoration: none;
+}
+
+.newsLink:hover {
+  text-decoration: underline;
+}
+
+.loadMore {
+  background-color: #4caf50;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  padding: 0.5rem 1rem;
+  margin-top: 1rem;
+  align-self: center;
+  transition: background-color 0.3s;
+}
+
+.loadMore:hover {
+  background-color: #3f9142;
+}

@@ -157,6 +157,50 @@
   padding-block: 1rem;
 }
 
+.stockSection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.stockHeadline {
+  font-size: 2rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+  text-align: center;
+}
+
+.contactSection {
+  display: flex;
+  justify-content: center;
+  margin-block: 2rem;
+
+  .contactButton {
+    display: inline-block;
+    padding: 1rem 2rem;
+    background-color: #0070f3;
+    color: #fff;
+    border-radius: 4px;
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+
+    &:hover {
+      background-color: #0050c8;
+    }
+  }
+}
+
+.goToTopButton {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  z-index: 9999;
+}
+
 @media (max-width: 1500px) {
   .welcomeSection {
     .welcomeHeadline {

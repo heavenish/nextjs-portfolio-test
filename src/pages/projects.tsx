@@ -6,6 +6,9 @@ import Modal from '../components/Modal/Modal';
 import Weather from './weather';
 import Recipe from './recipe';
 import Calculator from './calculator';
+import News from './news';
+import StockCrypto from './stockCrypto';
+import WhiteboardDemo from './whiteboard-demo';
 
 const projectsData = [
   {
@@ -28,6 +31,27 @@ const projectsData = [
     description:
       'A convenient recipe search tool that allows users to find recipes based on the ingredients they have on hand. Developed using React, Next.js, and TypeScript, this widget demonstrates my skills in working with external APIs, managing application state, and designing an engaging user experience.',
     component: <Recipe />,
+  },
+  {
+    id: 4,
+    title: 'Stock/Crypto Widget',
+    description:
+      'A versatile widget that displays top stock and cryptocurrency market gainers and losers with relevant news articles. Built with React, Next.js, and TypeScript, this project showcases my ability to handle complex application state and create a responsive user interface.',
+    component: <StockCrypto />,
+  },
+  {
+    id: 5,
+    title: 'News Widget',
+    description:
+      'A clean and modern news widget that fetches and displays the latest news articles from various sources. Developed using React, Next.js, and TypeScript, this project highlights my skills in working with external APIs and designing a visually appealing user experience.',
+    component: <News />,
+  },
+  {
+    id: 6,
+    title: 'Whiteboard Widget',
+    description:
+      'An interactive whiteboard that allows users to draw and erase shapes and text. Built with React, Next.js, and TypeScript, this project demonstrates my ability to create engaging user interfaces and handle complex user input.',
+    component: <WhiteboardDemo />,
   },
 ];
 

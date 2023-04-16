@@ -3,6 +3,9 @@ import styles from './Slider.module.scss';
 import CalculatorWidget from '@/widgets/Calculator/CalculatorWidget';
 import WeatherWidget from '@/widgets/Weather/WeatherWidget';
 import RecipeWidget from '@/widgets/Recipe/RecipeWidget';
+import WhiteboardWidget from '@/widgets/Whiteboard/WhiteboardWidget';
+import NewsWidget from '@/widgets/News/NewsWidget';
+import StockWidget from '@/widgets/Stock/StockWidget';
 
 const Slider: React.FC = () => {
   const sliderRef = useRef<HTMLDivElement>(null);
@@ -35,6 +38,10 @@ const Slider: React.FC = () => {
         <div className={styles.slide}>
           <h2>Recipe App</h2>
           <RecipeWidget />
+        </div>
+        <div className={styles.slide}>
+          <h2>News App</h2>
+          <NewsWidget />
         </div>
       </div>
       <button className={styles.prevBtn} onClick={handlePrev}>

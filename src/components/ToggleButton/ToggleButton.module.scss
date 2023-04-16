@@ -1,0 +1,75 @@
+// src/components/ToggleButton/ToggleButton.module.scss
+.toggleButton {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+
+  .label {
+    font-weight: bold;
+  }
+
+  .labelLeft,
+  .labelRight {
+    margin: 0 0.5rem;
+  }
+
+  .activeLabel {
+    color: #007bff;
+  }
+
+  .iconButton {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 30px;
+    border-radius: 15px;
+    border: 2px solid #ccc;
+    background-color: white;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+
+  .iconButton:hover {
+    background-color: #eee;
+  }
+}
+
+.sliderContainer {
+  width: 50px;
+  height: 25px;
+  border-radius: 25px;
+  position: relative;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.sliderGreen {
+  background-color: #4caf50;
+}
+
+.sliderRed {
+  background-color: #f44336;
+}
+
+.sliderThumb {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 25px;
+  height: 25px;
+  background-color: white;
+  border-radius: 50%;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: all 0.3s;
+}
+
+.sliderThumbLeft {
+  left: 0;
+}
+
+.sliderThumbRight {
+  left: 50%;
+}
