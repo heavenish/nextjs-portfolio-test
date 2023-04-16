@@ -24,7 +24,7 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  min-width: 400px; // Add this line
+  min-width: auto; // Add this line
 }
 
 .stock {
